@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lazy Kid Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/Shop.css" rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="icon" href="IMAGES/ICON.jpg">
+</head>
+<body background="IMAGES/Background-01.jpg">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="ONB">
+	<nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+       <a href="Home.html" class="logo"><img src ="IMAGES/2.JPG"></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="Women.html" class="nav-links">WOMEN</a>
+            </li>
+            <li>
+                <a href="Men.html" class="nav-links">MEN</a>
+            </li>
+            <li>
+                <a href="News.html" class="nav-links">NEWSLETTER</a>
+            </li>
+			<li>
+                <a href="Shop.html" class="nav-links"><img src="shop button.png" class="intp"></a>
+            </li>
+			<li>
+                <a href="https://www.instagram.com" class="nav-links"><img src="INT.png" class="intp"></a>
+            </li>
+        </ul>
+    </nav>
+	<br><br><br><br>
+	<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your Email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Gender">Gender</label>
+      </div>
+      <div class="col-75">
+        <select id="Gender" name="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Order" style="float:left;">Order</label>
+      </div>
+      <div class="col-75">
+        <select id="Order" name="Order">
+          <option value="BT1">White Tee</option>
+          <option value="BT2">The Black Tee</option>
+          <option value="BT3">Black Wool Tee</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Address</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Address" name="Address" placeholder="Your Address" style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+	</div>
+</body>
+	<footer><p style ="margin-top: 10px;">COPYRIGHT LAZY BOYS PH|</p></footer>
+	<script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        navBarToggle.addEventListener('click', function () {
+          mainNav.classList.toggle('active');
+        });
+    </script>
+</html>

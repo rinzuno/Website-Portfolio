@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <title>
+            Lancia
+        </title>
+        <link rel="stylesheet" type="text/css" href="car.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <img src ="logo.png" class="logo">
+        <img src="lancia.png" class="lancia">
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="car.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="m&e-car.html" class="nav-links">Motorsports & Events</a>
+            </li>
+            <li>
+                <a href="vehicle-car.html" class="nav-links">Vehicles</a>
+            </li>
+            <li>
+                <a href="about-car.html" class="nav-links"><u>About Lancia</u></a>
+            </li>
+        </ul>
+    </nav>
+    
+    <img src="https://www.classicdriver.com/sites/default/files/styles/full_width_slider/public/article_images/cds4-12.jpg?itok=C22QyBfo" alt="" class="aimage">
+    <div class="spacea"></div>
+    <div class="abox">
+        <div class="arimager">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqAT8rJIQ6-5EbSQEdVayvFNqKj8fIbuhHDWuXFjOAf1sgpMH&s" alt="" class="arimager">
+        </div>
+        <div class="aheadr">
+            <p>What is Lancia?</p>
+        </div>
+        <div class="atextr">
+            <p>Lancia (Italian: [ˈlantʃa]) is an Italian automobile manufacturer that was founded in 1906 by 
+                Vincenzo Lancia as Lancia & C.. It became part of the Fiat Group in 1969; the current company, 
+                Lancia Automobiles, was established in 2007. The company has a strong rally heritage, and 
+                has often used letters of the Greek alphabet for its model names. Lancia vehicles are no 
+                longer sold outside Italy and comprise only the Ypsilon supermini range, as was foreshadowed 
+                by Fiat CEO Sergio Marchionne in January 2014 before his death in 2018.
+            </p>
+        </div>
+    </div>
+
+    <div class="abox">
+            <div class="arimagel">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/2006_SAG_-_Lancia_Beta_Torpedo_1520_HP_1909_-03.JPG/1200px-2006_SAG_-_Lancia_Beta_Torpedo_1520_HP_1909_-03.JPG" alt="" class="arimager">
+            </div>
+            <div class="aheadl">
+                <p>History</p>
+            </div>
+            <div class="atextl">
+                <p>Lancia & C. Fabbrica Automobili was founded on 29 November 1906 in Turin by Fiat racing 
+                    drivers, Vincenzo Lancia (1881-1937) and his friend, Claudio Fogolin (1872-1945). The 
+                    first car manufactured by Lancia was the "Tipo 51" or "12 HP" (later called "Alfa"), 
+                    which remained in production from 1907 to 1908. It had a small four-cylinder engine 
+                    with a power output of 28 PS (21 kW; 28 hp).
+                </p>
+            </div>
+        </div>
+
+    </body>
+    <div class ="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Lancia</span></h1>
+                <p>Lancia is an Italian automobile manufacturer founded in 1906 by Vincenzo Lancia as Lancia & C.. 
+                    It became part of the Fiat Group in 1969; the current company, Lancia Automobiles, was established in 2007.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; info@lanciacars.com</span>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <a href="car.html"><li>Home</li></a>
+                    <a href="m&e-car.html"><li>Motorsports & Events</li></a>
+                    <a href="vehicle-car.html"><li>Vehicles</li></a>
+                    <a href="about-car.html"><li>About Lancia</li></a>
+                    <a href="#"><li>Terms and Condition</li></a>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h2>Contact us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Enter your email...">
+                    <textarea name="message" class="text-input contact-input"placeholder="Enter Message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envel"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            Copyright © 2019 Lancia Cars Philippines. All Rights Reserved.
+        </div>
+
+    </div>
+   
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        navBarToggle.addEventListener('click', function () {
+          mainNav.classList.toggle('active');
+        });
+    </script>
+</html>

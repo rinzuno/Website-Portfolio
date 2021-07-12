@@ -1,0 +1,637 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+    background: linear-gradient(#454545, darkgray) fixed;
+    height: 100%;
+}
+
+h1, h2,h3,h4,h5,h6 {
+    font-family: sans-serif;
+    color: white;
+    margin:5px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;  
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: #272727;
+    color:white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.btn-big {
+    padding: .7rem 1.3rem;
+    line-height:1.3rem;
+}
+
+.btn:hover {
+    color:white !important;
+    background: #1a1a1a;
+}
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5%;
+    border: px solid white;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: serif;
+}
+
+
+footer {
+    color:white;
+}
+
+.navbar {
+    font-size: 18px;
+    background-color:black;
+    padding-bottom: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.lancia {
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+/*lllllllllllllllllllllFOOTERllllllllllllllllllll*/
+.footer {
+
+    background: #303036;
+    color: white;
+    height:400px;
+    position: relative;
+}
+
+.footer .footer-content {
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: white;
+}
+
+.footer .footer-content .about p {
+    margin-left: 6px;
+}
+
+.footer .footer-content .about .contact span {
+    margin-top: 10px;
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-left: 6px;
+}
+
+.footer .footer-content .about .social a {
+    width: 45px;
+    height: 41px;
+    padding-top: 7px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .social a:hover {
+    border: 1px solid white;
+    color:white;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a {
+    display:block;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.footer .footer-content .links ul a:hover {
+    color:white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-info .contact-input {
+    background: #272727;
+    color: #bebdbe;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+}
+
+.footer .footer-content .contact-info .contact-input:focus {
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-info .contact-btn {
+    float: right;
+}
+
+.footer .footer-bottom {
+    background: black;
+    color: white;
+    height: 50px;
+    text-align:center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+/*llllllllllllllllCONTENTlllllllllllllll*/
+/*   H   O   M   E      H   O   M   E      H   O   M   E   */    
+.car {
+    margin-top:100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    display: block;
+}
+
+.quote {
+    text-align: center;
+    color:  whitesmoke;
+}
+
+.racingvid {
+    margin-top:50px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width:100%; 
+    height:100%;
+    display:block;
+}
+
+/* motorsport and events  motorsport and events  motorsport and events */   
+.space {
+    min-height: 50px; 
+    background: rgb(57, 62, 75);
+}
+.cover {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid transparent;
+    background: rgb(57, 62, 75);
+    margin:auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    display: block;
+    overflow: auto;
+}
+
+.meimage {
+    float: left;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 10%;
+}
+
+.metb {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.mehead {
+    font-size: 50px;
+    color:white;
+}
+
+.metext {
+    text-indent: 20px;
+    color: white;
+    text-align: justify;
+}
+
+/* VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.dot {
+    transition: background-color 2s ease;
+    display: none;
+}
+
+.vimage {
+    width:100%;
+}
+
+/* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+.spacea {
+    min-height: 50px; 
+    background: rgb(27, 31, 43);
+}
+.aimage {
+    width: 100%;
+    height: 400px;
+}
+
+.abox {
+    width: 100%;
+    margin:auto;
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    display: block;
+    overflow: auto;
+    background: rgb(27, 31, 43);
+}
+/* R I G H T */
+.aheadr {
+    margin-top: 20px;
+    color:white;
+    font-size: 24px;
+}
+
+.atextr {
+    margin-top: 10px;
+    margin-right: 400px;
+    color:white;
+    text-indent: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.arimager {
+    float: right;
+    width: 300px;
+    height: 250px;
+}
+/* L E F T */
+.aheadl {
+    margin-top: 20px;
+    margin-left: 400px;
+    color:white;
+    font-size: 24px;
+}
+
+.atextl {
+    margin-top: 10px;
+    margin-left: 400px;
+    color:white;
+    text-indent: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.arimagel {
+    float: left;
+    width: 300px;
+    height: 250px;
+}
+
+
+@media only screen and (max-width:934px) {
+    .footer {
+        height: auto;
+    }
+
+    .footer .footer-content{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer .footer-content .about .contact a {
+        padding-bottom: 0px;
+    }
+
+    .footer .footer-content .contact-info {
+        padding-bottom: 90px;
+    }
+
+    .footer .footer-content .contact-info .contact-btn{
+        width:100%;
+    }
+}
+/*llllllllllllllllllllllllllFOOTERlllllllllllllllllllllllll*/
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+@media screen and (max-width : 768px )
+{
+    .navbar-toggle {
+        margin-top: 1%;
+        font-size: 40px;
+        position: relative;
+        float: right;
+    }
+    
+    .logo {
+        margin-top: 1%;
+    }
+    
+    .lancia {
+        margin-top: 1%;
+        display: inline-block;
+        width: 150px;
+        height: 60px;
+        margin-left: 30%;
+    }
+
+     /*llllllllllllllllCONTENTllllllllllllllllllll*/
+     /*   H   O   M   E      H   O   M   E      H   O   M   E   */     
+     .car {
+        margin-top:50px;
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 600px;
+        display: block;
+    }
+    
+    .quote {
+        text-align: center;
+        color:  whitesmoke;
+    }
+    
+    .racingvid {
+        height:70%;
+    }   
+    
+/* motorsport and events  motorsport and events  motorsport and events */   
+    .space {
+        min-height: 30px;
+    }
+
+    .box {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+    }
+
+    .meimage {
+        float: none;
+        width: 400px;
+        height: 300px;
+        position: relative;
+        display: block;
+        margin:auto;
+    }
+
+    .metb {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .mehead {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .metext {
+        text-indent: 20px;
+        color: white;
+    }
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+    .aimage {
+        width: 100%;
+        height: 300px;
+    }
+
+    .abox {
+        padding-top: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+    }
+    /* R I G H T */
+    .aheadr {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .atextr {
+        text-align: center, justify;
+        margin-top: 10px;
+        margin-right: 0px;
+        font-size: 16px;
+    }
+
+    .arimager {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 250px;
+    }
+    /* L E F T */
+    .aheadl {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .atextl {
+        text-align: center, justify;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .arimagel {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 250px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width : 500px )
+{
+    .lancia {
+        margin-top: 2%;
+        width: 120px;
+        height: 50px;
+        margin-left: 23%;
+    }
+
+     /*llllllllllllllllCONTENTllllllllllllllllllll*/
+     /*   H   O   M   E      H   O   M   E      H   O   M   E   */
+     .car {
+        width: 400px;
+    }
+    
+    .quote {
+        text-align: center;
+        font-size: 25px;
+        color:  whitesmoke;
+    }
+    
+    .racingvid {
+        height: 40%;
+    }   
+    /* VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE  VEHICLE */
+    .text {
+        font-size: 20px;
+    }
+
+    /* motorsport and events  motorsport and events  motorsport and events */   
+
+    .box {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .meimage {
+        float: none;
+        width: 350px;
+        height: 250px;
+    }
+
+    .metb {
+        margin-top: 10px;
+    }
+
+    .mehead {
+        font-size: 35px;
+    }
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+    .aimage {
+        height: 200px;
+    }
+
+    .abox {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

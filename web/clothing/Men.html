@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Men's Clothing(LazyKidPH)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/Women.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="IMAGES/ICON.jpg">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body background="IMAGES/Background-01.jpg">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="ONB" >
+	<nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+       <a href="Home.html" class="logo"><img src ="IMAGES/2.JPG"></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="Women.html" class="nav-links">WOMEN</a>
+            </li>
+            <li>
+                <a href="Men.html" class="nav-links">MEN</a>
+            </li>
+            <li>
+                <a href="News.html" class="nav-links">NEWSLETTER</a>
+            </li>
+			<li>
+                <a href="Shop.html" class="nav-links"><img src="shop button.png" class="intp"></a>
+            </li>
+			<li>
+                <a href="https://www.instagram.com" class="nav-links"><img src="INT.png" class="intp"></a>
+            </li>
+        </ul>
+    </nav>
+	<br><br><br><br>
+	<center><img src="IMAGES/Topad.JPG" class="topad1" alt="Top ad"></center><br>
+	<h1 style="color:white; margin-left:15px;">MEN</h1>
+	<div class="whitebox2">
+			<center><div class="mySlides fade" style="margin-top:20px">
+ 					<img src="IMAGES/MEN/caro1.JPG" class="carolimg1">
+  					<div class="textx">Plain White Tee</div>
+			</div>
+			<div class="mySlides fade" style="margin-top:20px" >
+  					<img src="IMAGES/MEN/caro2.JPG" class="carolimg1">
+  					<div class="textx">The Black Tee</div>
+			</div>
+			<div class="mySlides fade" style="margin-top:20px">
+  					<img src="IMAGES/MEN/caro3.JPG" class="carolimg1">
+  					<div class="textx">Black Wool Tee</div>
+			</div><br></center>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<center><div style="vertical-align: middle">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+ 		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		</center>
+		
+		</div>
+	<div class="whitebox1">
+	<div class="textc">
+		<h3 class="texth">We Have new things on sale!!</h3>
+		
+			<div class="mySlides1 fade">
+ 					<p style="color:white">This cotton newly made White T-shirt is made from the finest cotton for comfortablity.</p>
+					<p style="color:white">Only for 399 PHP</p>
+			</div>
+			<div class="mySlides1 fade" >
+  					<p style="color:white">This silk made Black T-shirt is made from the finest silk from the nation.</p>
+					<p style="color:white">Only for 400 PHP</p>
+			</div>
+			<div class="mySlides1 fade">
+  					<p style="color:white">This wool-like Black T-shirt is the best option for adventures.</p>
+					<p style="color:white">Only for 399.5 PHP</p>
+					
+			</div>
+			
+		<br><br>
+		<a href ="shop"><div class="whitebox3"><p style="color:white;vertical-align:bottom;">BUY NOW!</p></div></a>
+		</div>
+	</div>
+	<br>
+</div>
+</body>
+<div class="space"></div>
+	<footer ><p style ="margin-top: 10px;">COPYRIGHT LAZY BOYS PH|</p></footer>
+	<script>
+		let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        navBarToggle.addEventListener('click', function () {
+          mainNav.classList.toggle('active');
+        });
+		
+var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+			}
+
+		function showSlides(n) {
+  			var i;
+  			var slides = document.getElementsByClassName("mySlides");
+			var slides1 = document.getElementsByClassName("mySlides1");
+  			var dots = document.getElementsByClassName("dot");
+  			if (n > slides.length) {slideIndex = 1}    
+  			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+				}
+			for (i = 0; i < slides.length; i++) {
+				slides1[i].style.display = "none";  
+				}
+  			for (i = 0; i < dots.length; i++) {
+      			dots[i].className = dots[i].className.replace(" active1", "");
+  				}
+  			slides[slideIndex-1].style.display = "block";
+			slides1[slideIndex-1].style.display = "block"; 
+  			dots[slideIndex-1].className += " active1";
+
+  		}
+	</script>
+	
+</html>
